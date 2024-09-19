@@ -1,0 +1,42 @@
+header {
+  color: white;
+  font: 200% "arial";
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(https://wallpapers.com/images/hd/minimalist-art-in-art-gallery-gvan2nr2n0rs4q1h.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: burlywood;
+  }
+}
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 22%;
+}
+
+.boxed {
+  height: 220px;
+  width: 220px;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
